@@ -3,6 +3,7 @@
 The purpose for me to create a REST API in Python with Flask to be able to get the wokring time hours month-by-month. I wokring on this porject in Visual Studio code and I would like to interpret my Python code in remote a locally running Python Docker container.
 
 Main tasks I want to achieve:
+
     [X] Setup remote Python development with Visual Studio Code
     [ ] Create REST API in Python and Flask to be able to get the work time hours of the month
 
