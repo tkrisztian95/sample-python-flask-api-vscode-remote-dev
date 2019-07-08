@@ -1,6 +1,5 @@
-# REST API developed using VS CODE remote development solution in Ptyhton & Flask to fetch month-by-month Hungarian working time hours
-
-The main purpose of this repo is to create a REST API in Python with Flask by using VS Code Remote Development feature. The API should be able to retrieve the working time hours month-by-month. I working on this porject in Visual Studio Code and I would like to interpret my Python code remote in the locally running Python Docker container without installing Python on my machine.
+# Ptyhton & Flask REST API developed using VS Code remote development
+The main purpose of this repo is to create a REST API in Python with Flask by using VS Code Remote Development feature. The API should be able to retrieve the working time hours of month what requestd. I working on this porject in Visual Studio Code and I would like to interpret and run my Python code remotely without installing Python on my machine so it will be done inside the locally running Python Docker container.
 
 Main tasks I want to achieve:
 - [X] Setup remote Python development with Visual Studio Code
