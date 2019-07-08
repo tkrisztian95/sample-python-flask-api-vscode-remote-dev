@@ -1,10 +1,10 @@
-# API to fetch month-by-month Hungarian working time hours
+# REST API developed using VS CODE remote development solution in Ptyhton & Flask to fetch month-by-month Hungarian working time hours
 
-The purpose for me to create a REST API in Python with Flask to be able to get the working time hours month-by-month. I working on this porject in Visual Studio code and I would like to interpret my Python code in remote a locally running Python Docker container without installing Python on my machine.
+The main purpose of this repo is to create a REST API in Python with Flask by using VS Code Remote Development feature. The API should be able to retrieve the working time hours month-by-month. I working on this porject in Visual Studio Code and I would like to interpret my Python code remote in the locally running Python Docker container without installing Python on my machine.
 
 Main tasks I want to achieve:
 - [X] Setup remote Python development with Visual Studio Code
-- [ ] Create REST API in Python and Flask to be able to get the work time hours of the month
+- [ ] Create REST API in Python and Flask
 
 ## How to use VS Code
 Visual Studio Code is an ideal free, lightweight development environment instead of the market leader IntellIJ IDEA ultimate which has built-in Spring Boot support.
@@ -18,8 +18,7 @@ The Visual Studio Code Remote - Containers extension lets you use a Docker conta
 ### Install Plugins
 With the help of these plugins you can easily create and develop your Python code.
 
-1. [Python plugin for local edit](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
-    This is not neccessary to be isntalled becaouse if you open in Remote container you ahve to 
+1. [Python plugin for local edit](https://marketplace.visualstudio.com/items?itemName=ms-python.python) 
 
 2. [Remote Containers plugin](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
 
