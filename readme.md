@@ -5,11 +5,6 @@ Main tasks I want to achieve:
 - [X] Setup remote Python development with Visual Studio Code
 - [ ] Create REST API in Python and Flask
 
-## How to use VS Code
-Visual Studio Code is an ideal free, lightweight development environment instead of the market leader IntellIJ IDEA ultimate which has built-in Spring Boot support.
-
-Official guide link: [Click here..](https://code.visualstudio.com/docs/java/java-spring-boot)
-
 ## Developing inside a Container
 The Visual Studio Code Remote - Containers extension lets you use a Docker container as a full-featured development environment. 
 [VS Code Remote guide](https://code.visualstudio.com/docs/remote/containers#_quick-start-open-a-folder-in-a-container)
