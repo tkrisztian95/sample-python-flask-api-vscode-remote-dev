@@ -1,5 +1,5 @@
 # Using VS Code remote development in Docker container (Ptyhton & Flask)
-The main purpose of this repo is to create a sample Python app and try out development using VS Code's Remote Development feature with Docker continers. 
+The main purpose of this repo is to create a sample Python app and try out development using VS Code's Remote Development feature with Docker containers. 
 
 Motivation:
 I would like to develop, interpret and run my Python code remotely without installing Python interpreter and packages on my Windows machine. Instead spin up a Python Docker container with all required dependencies.
@@ -10,8 +10,8 @@ Main tasks I want to achieve:
     - [X] return static index.html at `"/"`
     - [X] return text "Hello World" under `"/hello"`
     - [X] return Top 250 movies from IMDb at `"/imdb/movies/top250"`
-        - scrape Imdb Top 250 movies table from webpage "https://www.imdb.com/chart/top/?ref_=nv_mv_250",
-        - parse into class in "/model/topMovie.py"
+        - scrape [Imdb Top 250 movies](https://www.imdb.com/chart/top/?ref_=nv_mv_250) table from webpage with using [beautifulsoup4](https://www.crummy.com/software/BeautifulSoup/bs4/doc/#quick-start),
+        - parse into a class in "/model/topMovie.py"
         - serialize objects and return as Json array 
         ```
         {
