@@ -1,9 +1,12 @@
-# Ptyhton & Flask REST API developed using VS Code remote development
-The main purpose of this repo is to create a REST API in Python with Flask by using VS Code Remote Development feature. The API should be able to retrieve the working time hours of month what requestd. I working on this porject in Visual Studio Code and I would like to interpret and run my Python code remotely without installing Python on my machine so it will be done inside the locally running Python Docker container.
+# Using VS Code remote development in Docker container (Ptyhton & Flask)
+The main purpose of this repo is to create a sample Python app and try out development using VS Code's Remote Development feature with Docker continers. 
+
+Motivation:
+I would like to develop, interpret and run my Python code remotely without installing Python interpreter and packages on my Windows machine. Instead spin up a Python Docker container with all required dependencies.
 
 Main tasks I want to achieve:
 - [X] Setup remote Python development with Visual Studio Code
-- [ ] Create REST API in Python and Flask
+- [ ] Create simple REST API in Python with Flask
 
 ## Developing inside a Container
 The Visual Studio Code Remote - Containers extension lets you use a Docker container as a full-featured development environment. 
