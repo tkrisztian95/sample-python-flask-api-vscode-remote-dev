@@ -49,7 +49,7 @@ With the help of these plugins you can easily create and develop your Python cod
 5. Add some sample python code (app.py and static files) from [VS code try python](https://github.com/microsoft/vscode-remote-try-python)
 6. Hit F1 and select 'Remote-Containers: Reopen Folder in Container'
     - This will reopen VS Code and your workspace in a remote window, connected to the VS Code server which is running inside the container based on your Dockerfile.
-    - Once the container is running and you're connected, you should see your remote context change in the bottom left of the Status bar: ![Screenshot1](images/Capture.png)
+    - Once the container is running and you're connected, you should see your remote context change in the bottom left of the Status bar: ![Screenshot1](images/Capture.PNG)
 7. Open terminal and run this command to start the app: 'flask run'
 8. Hit F1 and select 'Forward a Port' 
     - In older versions 'Remote-Containers: Forward Port from Container'
