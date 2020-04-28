@@ -1,8 +1,8 @@
-# Using VS Code remote development in Docker container (Ptyhton & Flask)
-The main purpose of this repo is to create a sample Python app and try out development using VS Code's Remote Development feature with Docker containers. 
+# Using VS Code remote development in Docker container (with Ptyhton & Flask)
+The main purpose of this repo is to create a sample Python app and try making a consistent workflow locally for development. Visual Studio Code can do it so easily with just 1 plugin Remote Development with Docker containers. The steps can be altered for whatever the chosen environment required is. This also possible with WSL.
 
 Motivation:
-I would like to develop, interpret and run my Python code remotely without installing Python interpreter and packages on my Windows machine. Instead spin up a Python Docker container with all required dependencies.
+I would like to develop and run my Python code remotely/in a virtualized environment (similar to prod) without installing Python or any dev related packages/utils on my Windows machine. Instead, I just want to spin up a Python Docker container where I can find everything inside what I need.
 
 Main tasks I want to achieve:
 - [X] Setup remote Python development with Visual Studio Code
